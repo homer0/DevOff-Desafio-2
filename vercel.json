@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "devoffarg-02",
+  "alias": ["devoffarg-02.homer0.dev"],
+  "builds": [{ "src": "src/index.js", "use": "@vercel/node" }],
+  "rewrites": [
+    {
+      "source": "/encrypt",
+      "destination": "src/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "source": "/decrypt",
+      "destination": "src/index.js",
+      "methods": ["POST"]
+    }
+  ],
+  "env": {
+    "SERVERLESS": true
+  }
+}
