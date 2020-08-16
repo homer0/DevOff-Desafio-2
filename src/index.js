@@ -37,7 +37,6 @@ const start = async () => {
   }
 };
 
-console.log('AT LEAST TRYING IT', process.env.SERVERLESS);
 // eslint-disable-next-line no-process-env
 if (typeof process.env.SERVERLESS === 'undefined') {
   start();
