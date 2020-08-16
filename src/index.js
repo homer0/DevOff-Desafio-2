@@ -27,7 +27,6 @@ fastify.post('/decrypt', async (req) => {
   return { mensaje: decrypt(phrase, strength) };
 });
 
-// Run the server!
 const start = async () => {
   try {
     await fastify.listen(PORT);
@@ -38,4 +37,9 @@ const start = async () => {
   }
 };
 
-start();
+// eslint-disable-next-line no-process-env
+if (typeof process.env.SERVERLESS === 'undefined') {
+  start();
+}
+
+module.exports = fastify;
