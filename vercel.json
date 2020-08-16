@@ -16,6 +16,6 @@
     }
   ],
   "env": {
-    "SERVERLESS": true
+    "SERVERLESS": "true"
   }
 }
