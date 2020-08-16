@@ -3,7 +3,7 @@
   "name": "devoffarg-02",
   "alias": ["devoffarg-02.homer0.dev"],
   "builds": [{
-    "src": "api/serverless.js",
+    "src": "src/serverless.js",
     "use": "@vercel/node",
     "helpers": false
   }],
