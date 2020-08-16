@@ -9,11 +9,11 @@
   }],
   "routes": [
     {
-      "src": "/*",
+      "src": "/encrypt",
       "dest": "src/serverless.js"
     },
     {
-      "src": "/ping",
+      "src": "/decrypt",
       "dest": "src/serverless.js"
     }
   ],
