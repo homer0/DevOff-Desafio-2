@@ -2,7 +2,11 @@
   "version": 2,
   "name": "devoffarg-02",
   "alias": ["devoffarg-02.homer0.dev"],
-  "builds": [{ "src": "src/index.js", "use": "@vercel/node" }],
+  "builds": [{
+    "src": "src/index.js",
+    "use": "@vercel/node",
+    "helpers": false
+  }],
   "rewrites": [
     {
       "source": "/encrypt",
