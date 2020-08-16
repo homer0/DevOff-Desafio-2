@@ -3,18 +3,14 @@
   "name": "devoffarg-02",
   "alias": ["devoffarg-02.homer0.dev"],
   "builds": [{
-    "src": "src/index.js",
+    "src": "api/serverless.js",
     "use": "@vercel/node",
     "helpers": false
   }],
   "rewrites": [
     {
-      "source": "/api/encrypt",
-      "destination": "src/index.js"
-    },
-    {
-      "source": "/api/decrypt",
-      "destination": "src/index.js"
+      "source": "/*",
+      "destination": "src/serverless.js"
     }
   ],
   "env": {
