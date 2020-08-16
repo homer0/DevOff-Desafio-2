@@ -7,10 +7,10 @@
     "use": "@vercel/node",
     "helpers": false
   }],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/*",
-      "destination": "src/serverless.js"
+      "src": "/*",
+      "dest": "src/serverless.js"
     }
   ],
   "env": {
