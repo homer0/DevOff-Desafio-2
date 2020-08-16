@@ -11,6 +11,10 @@
     {
       "src": "/*",
       "dest": "src/serverless.js"
+    },
+    {
+      "src": "/ping",
+      "dest": "src/serverless.js"
     }
   ],
   "env": {
