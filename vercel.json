@@ -6,13 +6,11 @@
   "rewrites": [
     {
       "source": "/encrypt",
-      "destination": "src/index.js",
-      "methods": ["POST"]
+      "destination": "src/index.js"
     },
     {
       "source": "/decrypt",
-      "destination": "src/index.js",
-      "methods": ["POST"]
+      "destination": "src/index.js"
     }
   ],
   "env": {
