@@ -7,14 +7,14 @@
     "use": "@vercel/node",
     "helpers": false
   }],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/encrypt",
-      "dst": "src/index.js"
+      "source": "/api/encrypt",
+      "destination": "src/index.js"
     },
     {
-      "src": "/decrypt",
-      "dst": "src/index.js"
+      "source": "/api/decrypt",
+      "destination": "src/index.js"
     }
   ],
   "env": {
