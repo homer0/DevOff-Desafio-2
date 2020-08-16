@@ -31,6 +31,10 @@ fastify.get('/', async () => ({
   ping: 'pong',
 }));
 
+fastify.get('/ping', async () => ({
+  ping: 'pong2',
+}));
+
 const start = async () => {
   try {
     await fastify.listen(PORT);
