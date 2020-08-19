@@ -27,14 +27,6 @@ fastify.post('/decrypt', async (req) => {
   return { mensaje: decrypt(phrase, strength) };
 });
 
-fastify.get('/', async () => ({
-  ping: 'pong',
-}));
-
-fastify.get('/ping', async () => ({
-  ping: 'pong2',
-}));
-
 const start = async () => {
   try {
     await fastify.listen(PORT);
