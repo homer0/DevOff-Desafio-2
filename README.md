@@ -1,4 +1,10 @@
-![](https://static-cdn.jtvnw.net/jtv_user_pictures/fb425ddf-5e67-4c84-9210-8065809675f7-profile_banner-480.png)
+[![Reproductor](./player.png)](https://youtu.be/7t1JneCFyBE)
+
+📺 Video: [https://youtu.be/7t1JneCFyBE](https://youtu.be/7t1JneCFyBE)
+
+🤘 Deploy:
+  - [https://devoffarg-02.homer0.dev/encrypt](https://devoffarg-02.homer0.dev/encrypt)
+  - [https://devoffarg-02.homer0.dev/decrypt](https://devoffarg-02.homer0.dev/decrypt)
 
 # Desafío 2 - 02/08/2020
 
@@ -116,7 +122,7 @@ Cuando finalices la resolución del desafío, envianos un archivo ZIP con todo t
 
 ### Organizaciones aliadas
 
-¡Gracias a [Migue Moyano](https://twitter.com/elmiguedev), [Joel A. Villarreal Bertoldi](https://twitter.com/joelalejandro) y [Agustín Carrasco](https://twitter.com/asermax) del equipo de [CoDeAr](https://twitter.com/somoscodear) por dar una mano para que este proyecto sea posible! 
+¡Gracias a [Migue Moyano](https://twitter.com/elmiguedev), [Joel A. Villarreal Bertoldi](https://twitter.com/joelalejandro) y [Agustín Carrasco](https://twitter.com/asermax) del equipo de [CoDeAr](https://twitter.com/somoscodear) por dar una mano para que este proyecto sea posible!
 
 ### Créditos
 
